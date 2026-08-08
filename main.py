@@ -230,7 +230,9 @@ async def action_do(ctx, *, description: str):
 # ---------------------------------------------------------
 # LANCEMENT DU BOT
 # ---------------------------------------------------------
-TOKEN = "MTUzNTI5NjcwMzA5ODM5Njc0NQ.GLMuUX.oS5-i5FL_OroLmPYLAzhOYqsihM_eQRfazlfck"
+TOKEN = "MTUzNTI5NjcwMzA5ODM5Njc0NQ.GH6fL2.XupOKm0fhYcBny1L32ez3xrTeXBUOOv9yWkgog"
 
 if __name__ == "__main__":
     bot.run(TOKEN)
+
+
