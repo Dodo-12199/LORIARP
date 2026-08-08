@@ -231,7 +231,15 @@ async def action_do(ctx, *, description: str):
 # LANCEMENT DU BOT
 # ---------------------------------------------------------
 import os
-TOKEN = os.environ.get("MTUzNTI5NjcwMzA5ODM5Njc0NQ.GMZxAa.FB0zvhy5lCdx_F-R8lSqk1JVRT5Gms5w5SzAfo")
+
+# Récupération du token
+TOKEN = os.environ.get("MTUzNTI5NjcwMzA5ODM5Njc0NQ.G6P1IE.vhgN2kCat1bKTWfg5Pq1X-gU5qw7g88RxJd5pc")
+
+if not TOKEN:
+    raise ValueError("❌ La variable d'environnement DISCORD_TOKEN est manquante sur Render !")
+
+bot.run(TOKEN)
+
 
 
 if __name__ == "__main__":
